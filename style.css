@@ -1,0 +1,309 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.background-completo{
+	background-image: url('http://iphonewalls.net/wp-content/uploads/2013/09/Dimensional%20Triangles%20iPhone%205%20Wallpaper.jpg');    
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
+
+.background-header{
+	width: 100%;
+}
+
+.background{ 
+    width: 100%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+}
+
+.background img.matheus{
+	padding: 10px;
+	width: 35%;
+	height: 100px;
+	border-radius: 50%;
+}
+
+ .title-matheus{
+	padding-bottom: 10px;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-weight: 900;
+	color: white;
+}
+
+.contato-whats{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	background-color: black;
+	opacity: 0.5;
+	width: 100%;
+}
+.whats{
+	color: white;
+}
+
+.fa-whatsapp{
+	margin-right: 5px;
+	color: white;
+}
+
+.background-sobre{
+	margin-top: 15px;
+	background-color: black;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px 10px 10px;
+}
+
+.conteudo-sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+}
+
+.title-sobre{
+	color: #fff;
+	font-size: 2em;
+}
+
+.descricao-sobre{
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+}
+
+.container-projetos{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.projetos{
+	display: flex;
+	align-items: center;
+	flex-direction: column;;
+	width: 99%;
+}
+
+.detalhe-projeto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 90%;
+	padding: 2px 2px 2px 2px; 
+}
+
+.imagem-projeto{
+	border-radius: 2%;
+	width: 90%;
+	height: 150px;
+}
+
+.botao-projetos{
+     padding-right: 5px;
+     list-style: none;
+     padding-right: 1px;
+     width: 5em;
+     text-align: center;
+     padding: 10px;
+     font-size: 15px;
+     background-color: rgba(51, 51, 51, 0.1);
+     font-weight: 900;
+     border-radius: 5px;
+     margin-top: 10px;
+     color: #fff;
+ }
+
+ .contato{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+
+.container-contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+} 
+
+.title-contato{
+	padding-bottom: 10px;
+	color: white;
+	font-size: 1.5em;
+}
+
+.descricao-email{
+	color: white;
+}
+
+.email{
+	padding: 0 16px;
+    width: 80%;
+    height: 35px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 12px;
+    color: #444;
+    background: #fefefe;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #999 #aaa #aaa;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px #f8f8f8;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px #f8f8f8;
+    margin-bottom: 5px;
+}
+
+.redes-sociais{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.container-sociais{
+	width: 100%;
+	height: 50px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.sociais{
+	width: 40px;
+}
+
+.lista-contato{
+	display: none;
+}
+
+@media(min-width: 767px){
+	.background-header{
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.background{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.background img.matheus{
+		width: 20%;
+		height: 120px;
+	}
+
+	.title-matheus{
+		font-size: 1.5em;
+	}
+
+	.background-sobre{
+		margin-top: 5px;
+		background-color: black;
+		opacity: 0.5;
+		display: flex;
+		justify-content: center;
+		padding: 10px 10px 10px 10px;
+	}
+
+	.title-sobre{
+		display: none;
+	}
+
+	.lista-contato{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 60px;
+		width: 100%;
+	}
+
+	.lista-princ{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		width: 80%;
+		padding: 10px;
+	}
+
+	.itens-lista{
+	    list-style: none;
+	    border: 1px solid #f8f8f8;
+	    padding-right: 1px;
+	    width: 7em;
+	    text-align: center;
+	    padding: 10px;
+	    font-size: 21px;
+	    background-color: rgba(51, 51,51, 0.1);
+	    font-weight: 900;
+	    border-radius: 5px;
+	    color: #fff;
+	    margin-right: 5px;
+	}
+
+	.itens-lista:hover{
+		background-color: rgba(0,0,255, 0.1);
+
+	}
+
+	.contato-whats{
+		display: none;
+	}
+
+	.container-projetos{
+		display: none;
+	}
+
+	.contato{
+		display: none;
+	}
+	
+	.redes-sociais{
+		display: flex;
+		margin-top: 75px;
+	}
+}
+
+@media (min-width: 1023px){
+	.lista-princ{
+		margin-top: 50px;
+	}
+
+	.redes-sociais{
+		margin-top: 110px;
+	}
+
+	.background img.matheus{
+		height: 150px;
+	}
+}
